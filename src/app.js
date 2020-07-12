@@ -138,18 +138,18 @@ app.get('/weather', (req,res) => {
 
 
 //Example to setup weather API
-app.get('/products', (req, res) => {
+// app.get('/products', (req, res) => {
     
-    if(!req.query.search){
-       return  res.send({
-            error:'You must prodive a search term'
-        })
-    }
-   console.log(req.query.search) 
-    res.send({
-        products:[]
-    })
-})
+//     if(!req.query.search){
+//        return  res.send({
+//             error:'You must prodive a search term'
+//         })
+//     }
+//    console.log(req.query.search) 
+//     res.send({
+//         products:[]
+//     })
+// })
 
 // read data from database or json or html 
 // 1st-->Root // app.com  ->Home page 
