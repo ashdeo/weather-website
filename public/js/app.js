@@ -1,5 +1,4 @@
-console.log('client side javascript file is loaded ')
-
+//console.log('client side javascript file is loaded ')
 // // then is a bigger method  API which uses promises 
 // // promises and its companion Asynawait 
 // fetch('http://puzzle.mead.io/puzzle').then ( (response) => {
@@ -39,6 +38,7 @@ const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const messageOne = document.querySelector('#message-1')
 const messageTwo = document.querySelector('#message-2')
+
 
 //messageOne.textContent = 'From Javascript'
 
