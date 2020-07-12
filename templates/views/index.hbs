@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Weather</title>
+<link rel="icon" href="/img/weather.png">
+
+<link  rel="Stylesheet" href="./css/styles.css">  <!--relative path , link is an empty element which means it does not have a close tag , two attributes rel and href key value pair--> 
+
+<!-- OR -->
+<!--<link  rel="Stylesheet" href="/css/styles.css"/>  No . is present --Absoulte path for the web server 
+--> 
+    </head>
+    <body>
+
+      <div class="main-content">
+          {{>header}}
+      <p>Use this side to get your weather</p>
+        <form>
+            <input placeholder="Enter Address" >
+            <button>Search</button>
+
+        </form>
+
+           <p id = "message-1"></p>
+            <p id = "message-2" ></p>
+
+      </div>
+      {{>footer}}
+     <script src= "/js/app.js" > </script>
+    </body>
+</html>
